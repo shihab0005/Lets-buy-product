@@ -22,11 +22,16 @@ Navigate to the  webpage and login with valid email and password .
 ## Screenshots 
 Successfully Order Palced
 ![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/PomOut.png?raw=true)
-![App Screenshot](https://github.com/shihab0005/greenkart-automation-with-playwrightJS-pom-allure-report/blob/main/Output/test-finished-2.png?raw=true)
-![App Screenshot](https://github.com/shihab0005/greenkart-automation-with-playwrightJS-pom-allure-report/blob/main/Output/test-finished-3.png?raw=true)
 
 ## Allure Report without POM
-![App Screenshot](https://github.com/shihab0005/greenkart-automation-with-playwrightJS-pom-allure-report/blob/main/Output/Capture.PNG?raw=true)
+![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/allur.PNG?raw=true)
+
+## Screenshots of Cucumber 
+Successfully Order Palced
+![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/PomOut.png?raw=true)
+
+## Allure Report without POM
+![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/allur.PNG?raw=true)
 
 ## Prerequisite:
 - Node Js
