@@ -39,7 +39,7 @@ Successfully Order Palced
 
 - Clone Project Command:
 ```bash
-   git clone https://github.com/shihab0005/greenkart-automation-with-playwrightJS-pom-allure-report.git 
+   git clone https://github.com/shihab0005/Lets-buy-product.git 
 ```
 - Install All Project Package:
 ```bash
@@ -49,24 +49,21 @@ Successfully Order Palced
 ```bash
   npx playwright test 
 ```
-## Cucumber Install And Run:
+## Cucumber Install And Run and Html Report:
 
 - Allure Report Package Install Command:
 ```bash
-  npm i -D @playwright/test allure-playwright
+ npm install --save-dev @cucumber/cucumber
 ```
-- Allure Report Config Command:
+- Run Cucumber Project:
 ```bash
- npx playwright test --reporter=line,allure-playwright  
+ npx cucumber-js --exit --format 
 ```
-- Generate Allure Report Command:
+- Generate Html Report Command:
 ```bash
-  allure generate allure-results -o allure-report --clean
+ npx cucumber-js --exit --format html:cucumber-report.html
 ```
-- Open Allure Report Command:
-```bash
-  allure open allure-report
-```
+
 
 ## Allure Report Generate Process:
 
