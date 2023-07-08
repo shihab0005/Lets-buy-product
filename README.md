@@ -1,6 +1,7 @@
 ## Lets buy Product
 
-Navigate to the  webpage and login with valid email and password. 
+Navigate to the  webpage and login with valid email and password. In home page add to cart porduct from json file and confirm order by giving details
+and confirm order.
 
 ## Technology used:
   - Test Tool: Playwright
