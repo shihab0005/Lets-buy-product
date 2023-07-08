@@ -23,15 +23,13 @@ Navigate to the  webpage and login with valid email and password .
 Successfully Order Palced
 ![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/PomOut.png?raw=true)
 
-## Allure Report without POM
+## Allure Report POM
 ![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/allur.PNG?raw=true)
 
-## Screenshots of Cucumber 
+## Screenshots of Cucumber Html report 
 Successfully Order Palced
-![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/PomOut.png?raw=true)
+![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/htmlReport.PNG?raw=true)
 
-## Allure Report without POM
-![App Screenshot](https://github.com/shihab0005/Lets-buy-product/blob/main/features/Screenshot/allur.PNG?raw=true)
 
 ## Prerequisite:
 - Node Js
@@ -50,6 +48,24 @@ Successfully Order Palced
 - Run Project:
 ```bash
   npx playwright test 
+```
+## Cucumber Install And Run:
+
+- Allure Report Package Install Command:
+```bash
+  npm i -D @playwright/test allure-playwright
+```
+- Allure Report Config Command:
+```bash
+ npx playwright test --reporter=line,allure-playwright  
+```
+- Generate Allure Report Command:
+```bash
+  allure generate allure-results -o allure-report --clean
+```
+- Open Allure Report Command:
+```bash
+  allure open allure-report
 ```
 
 ## Allure Report Generate Process:
