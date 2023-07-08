@@ -57,7 +57,7 @@ Successfully Order Palced
 ```
 - Run Cucumber Project:
 ```bash
- npx cucumber-js --exit --format 
+ npx cucumber-js --exit
 ```
 - Generate Html Report Command:
 ```bash
