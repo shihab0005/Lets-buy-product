@@ -1,10 +1,11 @@
 ## Lets buy Product
 
-Navigate to the  webpage and login with valid email and password .
+Navigate to the  webpage and login with valid email and password. 
 
 ## Technology used:
   - Test Tool: Playwright
   - Language: Javascript
+  - DDT(from json file)
   - Architecture: POM (Page Object Model)
   - Report Framework: Allure Report
   - IDE: VSCode
@@ -14,6 +15,7 @@ Navigate to the  webpage and login with valid email and password .
   - Test Tool: Cucumber
   - feature(World constructor,hooks,screenshot of error)
   - Language: Javascript
+  - DDT(Data-driven testing)
   - Architecture: POM (Page Object Model)
   - Report Framework: html Report
   - IDE: VSCode
@@ -47,7 +49,7 @@ Successfully Order Palced
 ```
 - Run Project:
 ```bash
-  npx playwright test 
+  npx playwright test EcommercePageObjectProject.spec.js
 ```
 ## Cucumber Install And Run and Html Report:
 
@@ -73,7 +75,7 @@ Successfully Order Palced
 ```
 - Allure Report Config Command:
 ```bash
- npx playwright test --reporter=line,allure-playwright  
+ npx playwright test EcommercePageObjectProject.spec.js --reporter=line,allure-playwright  
 ```
 - Generate Allure Report Command:
 ```bash
